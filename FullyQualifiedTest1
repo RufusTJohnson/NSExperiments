@@ -1,0 +1,10 @@
+<?php
+namespace This\Is\A\Long\Name_Space;
+echo '<span style="text-decoration: underline;">Demo the effect of namespaces on fully qualified class names</span>';
+class handler{}
+echo "<br><br><HR>".handler::class."<br>";
+
+namespace Short\Name_Space;
+class handler{}
+echo "<br><br><HR>".handler::class."<br>";
+?>
